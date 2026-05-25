@@ -17,7 +17,7 @@ public class Inheritance {
          System.out.println("what a nice scooty");
      }
  }
-   class Demo{
+   class A {
        static void main(String[] args) {
            Car c = new Car();
            Scooty s = new Scooty();
