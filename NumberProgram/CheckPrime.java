@@ -1,0 +1,22 @@
+package Summer_Internship.NumberProgram;
+import java.util.Scanner;
+public class CheckPrime {
+    static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int count = 0;
+        System.out.println("Enter a number:");
+        int num = sc.nextInt();
+        for(int i=1;i<=num;i++) {
+            if (num % i == 0) {
+                count++;
+            }
+        }
+            if(count==2){
+                System.out.println("number is a prime number");
+            }
+            else{
+                System.out.println("number is not a prime number");
+            }
+        }
+    }
+
