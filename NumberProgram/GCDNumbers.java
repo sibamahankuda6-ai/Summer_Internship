@@ -2,7 +2,7 @@ package Summer_Internship.NumberProgram;
 
 import java.util.Scanner;
 
-public class GCDNumbers {
+public class GCDNumbers  {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
