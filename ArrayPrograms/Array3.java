@@ -15,10 +15,10 @@ public class Array3 {
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
         }
-        System.out.println("even array elements:");
-        obj.printEven(arr, size);
+        System.out.println("odd array index:");
+        obj.printOddIndex(arr, size);
     }
-    void printEven(int arr[],int size){
+    void printOddIndex(int arr[],int size){
 
         for(int i=0;i<size;i++){
 

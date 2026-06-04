@@ -1,10 +1,12 @@
-//Write a Java program to print even index values of an array.
+//Write a Java program to print odd elements present in an array.
 package Summer_Internship.ArrayPrograms;
+
 import java.util.Scanner;
-public class Array2 {
+
+public class Array5 {
     static void main(String[] args) {
 
-        Array2 obj = new Array2();
+        Array5 obj = new Array5();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter array size");
         int size = sc.nextInt();
@@ -13,20 +15,19 @@ public class Array2 {
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
         }
-        System.out.println("even array index:");
-        obj.printEvenIndex(arr, size);
+        System.out.println("odd array elements:");
+        obj.printOddElement(arr, size);
     }
-        void printEvenIndex(int arr[],int size){
+    void printOddElement(int arr[],int size){
 
         for(int i=0;i<size;i++){
 
-               if (arr[i] % 2 == 0) {
-                   System.out.println(i);
-               }
+            if (arr[i] % 2 == 1) {
+                System.out.println(arr[i]);
+            }
 
 
 
-        }
         }
     }
-
+}
