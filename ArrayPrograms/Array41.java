@@ -1,6 +1,6 @@
 //Write a Java program to print missing elements.
 //Input-{2,4,6,8,13}
-//output-{3,5,7,9,10,11,12} 
+//output-{3,5,7,9,10,11,12}
 package Summer_Internship.ArrayPrograms;
 import java.util.*;
 public class Array41 {
