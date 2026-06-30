@@ -1,4 +1,4 @@
-//Write a Java program to copy an array using arraycopy() method.
+//Write a Java program to copy an array using arraycopy() method./
 package Summer_Internship.ArrayPrograms;
 
 import java.util.Scanner;
