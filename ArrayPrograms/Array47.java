@@ -1,4 +1,4 @@
-//Write a Java program for binary search. 
+//Write a Java program for binary search. /
 package Summer_Internship.ArrayPrograms;
 import java.util.*;
 public class Array47 {

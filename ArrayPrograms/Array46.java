@@ -1,4 +1,4 @@
-//. Write a Java program for linear search.
+//. Write a Java program for linear search./
 package Summer_Internship.ArrayPrograms;
 import java.util.*;
 public class Array46 {
