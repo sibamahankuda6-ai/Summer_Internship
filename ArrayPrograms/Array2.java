@@ -22,6 +22,7 @@ public class Array2 {
 
                if (arr[i] % 2 == 0) {
                    System.out.println(i);
+                   //
                }
 
 
