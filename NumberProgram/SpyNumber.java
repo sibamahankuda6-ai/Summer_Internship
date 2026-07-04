@@ -1,7 +1,5 @@
 package Summer_Internship.NumberProgram;
-
 import java.util.Scanner;
-
 public class SpyNumber {
     public static void main(String[] args) {
 
