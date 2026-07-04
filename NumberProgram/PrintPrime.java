@@ -1,5 +1,5 @@
 //Write a program to print all Prime numbers from 1 to N
-        package Summer_Internship.NumberProgram;
+package Summer_Internship.NumberProgram;
 import java.util.Scanner;
 public class PrintPrime {
     static void main(String[] args) {
