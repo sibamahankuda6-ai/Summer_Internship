@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Array8 {
     static void main(String[] args) {
 
-        Array8 obj = new Array8();
+        Array8 ob = new Array8();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter array size");
         int size = sc.nextInt();
@@ -16,7 +16,7 @@ public class Array8 {
             arr[i] = sc.nextInt();
         }
 
-        obj.sumOfEvenElements(arr, size);
+        ob.sumOfEvenElements(arr, size);
     }
     void sumOfEvenElements(int arr[],int size){
         int sumEven =0;
