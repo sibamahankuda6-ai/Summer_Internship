@@ -1,6 +1,7 @@
  class DataTypes {
     public static void main(String[] args) {
 
+     
         int age = 20;
         float salary = 25000.50f;
         double pi = 3.14159;
